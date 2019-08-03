@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Pago</title>
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/stpay.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!--Date Picker-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <br>
+    <div class="container fa fa-align-center bk" aria-hidden="true">
+
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+                <p class="pb-0 mb-0">Te invitamos a seguir en nuestra plataforma de cursos online</p>
+                <p class="text-danger small pt-0 mt-0">*Todos los campos requeridos</p>
+                <form action="#" class="credit-card-div">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+
+                            <div class="row ">
+                                <div class="col-md-12">
+                                    <input type="text" pattern='[0-9]{16}' class="form-control" placeholder="Numero de la tarjeta" required />
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <span class="help-block text-muted small-font"> Mes que expira</span>
+                                    <input type="text" pattern='0[0-9]|1[0-2]{1,2}' class="form-control" placeholder="MM" required/>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <span class="help-block text-muted small-font"> Año que expira</span>
+                                    <input type="text" pattern='19|2[0-9]{1,2}' class="form-control" placeholder="YY" required/>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <span class="help-block text-muted small-font"> CCV</span>
+                                    <input type="text" pattern='[0-9]{3}'class="form-control" placeholder="CCV" required/>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <img src="./img/cc.png" class="img-rounded" width="50px" height="100%" />
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-md-12 pad-adjust">
+
+                                    <input type="text" pattern='[A-Za-z ]*+[\s]{5,100}' class="form-control" placeholder="Nombre en la tarjeta" required/>
+                                </div>
+                            </div>
+                            
+                            <div class="row ">
+                                <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+                                    <input type="submit" class="btn btn-danger" value="CANCELAR" />
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6 pad-adjust">
+                                    <input type="submit" class="btn btn-warning btn-block" value="PAGAR" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/scrip.js" type="text/javascript"></script>
+    <br>
+    <br>
+</body>
+<i class="fa fa-optin-monster" aria-hidden="true">By Wilson Rubén Cruz Enríquez</i>
+
+</html>

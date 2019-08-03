@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cotizacion</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/stpay.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="coti" aria-hidden="true">
+        <br>
+        <div class="row for group">
+            <div class="col-md-4">
+                
+                <div class="row form-group">
+                    <div class="col">
+                        <h1>SELECCIONA TU VEHÍCULO VOLKSWAGEN</h1>
+                        <img src="./img/carv.jpg" alt="" width="60%" height="60%">
+                    </div>
+
+                </div>
+
+                <br>
+                <br>
+                
+                
+                <div class="row form-group">
+
+                    <label for="" class="col-form-label col-md-6">Elige Año del modelo</label>
+                    <select class="form-control col-md-6" name="" id="">
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                    </select>
+                </div>
+
+                <div class="row form-group">
+                    <label for="" class="col-form-label col-md-6">Elige modelo</label>
+                    <select class="form-control col-md-6" name="" id="">
+                        <option>T-Roc</option>
+                        <option>Polo</option>
+                        <option>Golf</option>
+                        <option>Passat</option>
+                        <option>Arteon</option>
+                    </select>
+                </div>
+
+                <div class="row form-group">
+                    <label for="" class="col-form-label col-md-6">Elige el color</label>
+                    <select class="form-control col-md-6" name="" id="">
+                        <option>Negro</option>
+                        <option>Rojo</option>
+                        <option>Azul</option>
+                        <option>Amarillo</option>
+                        <option>Verde</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <h1>TU INFORMACION</h1>
+                <p class="text-danger small pt-0 mt-0">*Todos los campos requeridos</p>
+                <br>
+                <br>
+                <form>
+                    <div class="col form-group">
+                        <label for="Nombre/s" class="col-form-label col-md-4">Nombre/s</label>
+                        <div class="col-md-9">
+                            <input type="text" pattern='[A-Za-zñáéíóú ]+[\s]*' name="nombre" id="nom"
+                                class="form-control" placeholder=" Juan Ernesto" required>
+                        </div>
+                    </div>
+                    <div class="col form-group">
+                        <label for="Apellido/s" class="col-form-label col-md-2">Apellido/s</label>
+                        <div class="col-md-9">
+                            <input type="text" pattern='[A-Za-zñáéíóú ]+[\s]*' name="apellido" id="apellido"
+                                class="form-control" placeholder=" Perez Soto" required>
+                        </div>
+                    </div>
+
+
+                    <div class="col form-group">
+                        <label for="tel1" class="col-form-label col-md-6">Codigo postal</label>
+                        <div class="col-md-9">
+                            <input type="text" name="codigopos" pattern='[0-9]{5}' id="post" class="form-control"
+                                placeholder="22012" required>
+                        </div>
+                    </div>
+
+                    <div class="col form-group">
+                        <label for="tel1" class="col-form-label col-md-6">Tel. Personal</label>
+                        <div class="col-md-9">
+                            <input type="tel" pattern='[0-9]{8}' name="telper" id="tel" class="form-control"
+                                placeholder="59671008" required>
+                        </div>
+                    </div>
+
+                    <div class="col form-group">
+                        <label for="email" class="col-form-label col-md-2">Correo</label>
+                        <div class="col-md-9">
+                            <input type="email" name="correo" id="correo" class="form-control"
+                                placeholder="jernesoto@miemail.com" required>
+                            <br>
+                        </div>
+                    </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-4">
+                <h1>SELECCIONA UN DISTRIBUIDOR</h1>
+                <br>
+                <br>
+                <div class="row form-group">
+                    <label for="" class="col-form-label col-md-6">Distribuidora</label>
+                    <select class="form-control col-md-6" name="" id="">
+                        <option>Distribuidora 1</option>
+                        <option>Distribuidora 2</option>
+                        <option>Distribuidora 3</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-info" name="enviar" id="enviar"
+                    class="btn btn-info">Enviar</button>
+                <br>
+                <br>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
